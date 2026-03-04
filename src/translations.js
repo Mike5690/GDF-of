@@ -1,6 +1,16 @@
 // 多语言翻译数据
 export const translations = {
 
+
+  // ===== 页面标题 & 公告 =====
+  page_title: { zh: 'GDF - 下一代 DeFi 5.0 五重通缩协议', en: 'GDF - Next-Gen DeFi 5.0 Five Deflation Protocol', tw: 'GDF - 下一代 DeFi 5.0 五重通縮協議', ja: 'GDF - 次世代DeFi 5.0 5重デフレプロトコル', ko: 'GDF - 차세대 DeFi 5.0 5중 디플레이션 프로ト콜' },
+  ann_new_1: { zh: '🚨 【GDF 核心生态与经济模型升级公告】', en: '🚨 [GDF Core Ecosystem & Economic Model Upgrade Announcement]', tw: '🚨 【GDF 核心生態與經濟模型升級公告】', ja: '🚨 【GDF コアエコシステムと経済モデルのアップグレード発表】', ko: '🚨 [GDF 핵심 생태계 및 경제 모델 업그레이드 공지]' },
+  ann_new_2: { zh: '🔧 通缩机制重大升级 — 升级为“GDF 24—60小时超级纪元动态LP分红机制”！', en: '🔧 Major deflation mechanism upgrade — "GDF 24-60 Hour Super Epoch Dynamic LP Dividend Mechanism"!', tw: '🔧 通縮機制重大升級 — 升級為「GDF 24—60小時超級紀元動態LP分紅機制」！', ja: '🔧 デフレメカニズム大幅アップグレード — 「GDF 24-60時間スーパーエポック動的LP配当メカニズム」へ！', ko: '🔧 디플레이션 메커니즘 대폭 업그레이드 — "GDF 24-60시간 슈퍼 에포크 동적 LP 배당 메커니즘"으로!' },
+  ann_new_3: { zh: '🛡️ 保卫底池，拒绝死亡螺旋 — 日均 0.2% 平滑通缩，牢牢锁住底池价值！', en: '🛡️ Defending the pool, rejecting death spiral — 0.2% daily smooth deflation, locking pool value!', tw: '🛡️ 保衛底池，拒絕死亡螺旋 — 日均 0.2% 平滑通縮，牢牢鎖住底池價值！', ja: '🛡️ プール防衛、死の螺旋を拒否 — 日次0.2%の平滑デフレで、プールの価値を死守！', ko: '🛡️ 풀 방어, 죽음의 나선 거부 — 일일 평균 0.2% 평활 디플레이션으로 풀 가치 고정!' },
+  ann_new_4: { zh: '🤖 斩断机器人套利（Anti-Bot）— 有效防止 MEV 夹子机器人高频吸血！', en: '🤖 Cutting off arbitrage (Anti-Bot) — Effectively preventing high-frequency MEV sandwich bots!', tw: '🤖 斬斷機器人套利（Anti-Bot）— 有效防止 MEV 夾子機器人高頻吸血！', ja: '🤖 ボットアービトラージ遮断(Anti-Bot) — MEVボットによる高頻度な吸い上げ効果的に防止！', ko: '🤖 봇 차익 거래 차단 (Anti-Bot) — MEV 샌드위치 봇 고빈도 탈취 효과적 방지!' },
+  ann_new_5: { zh: '💥 每 24—60 小时集中大额销毁与分红，每次触发都是社区狂欢的利好节点！', en: '💥 Concentrated burns & dividends every 24-60H, every trigger is a community celebration!', tw: '💥 每 24—60 小時集中大額銷毀與分紅，每次觸發都是社區狂歡的利好節點！', ja: '💥 24〜60時間ごとの大型バーンと配当、トリガーされるたびにコミュニティの祝福と！', ko: '💥 24-60시간마다 대규모 소각 및 배당 집중, 거대한 커뮤니티 축제!' },
+  ann_new_6: { zh: '🚀 GDF 团队始终致力于长期共识共建，真正的起飞才刚刚开始！🌕', en: '🚀 GDF team is committed to building long-term consensus, real take-off has just begun! 🌕', tw: '🚀 GDF 團隊始終致力於長期共識共建，真正的起飛才剛剛開始！🌕', ja: '🚀 GDFチームは長期的なコンセンサス構築に尽力しています。本当の離陸は始まったばかりです！🌕', ko: '🚀 GDF 팀은 장기적 컨센서스 구축에 헌신합니다. 진정한 이륙은 이제 막 시작되었습니다! 🌕' },
+
   // ===== 完整板块标题（含HTML） =====
   hero_title: { zh: '<span class="gradient-text">GDF</span> 协议', en: '<span class="gradient-text">GDF</span> Protocol', tw: '<span class="gradient-text">GDF</span> 協議', ja: '<span class="gradient-text">GDF</span> プロトコル', ko: '<span class="gradient-text">GDF</span> 프로토콜' },
   about_title: { zh: '关于 <span class="gradient-text">GDF</span> 协议', en: 'About <span class="gradient-text">GDF</span> Protocol', tw: '關於 <span class="gradient-text">GDF</span> 協議', ja: '<span class="gradient-text">GDF</span> プロトコルについて', ko: '<span class="gradient-text">GDF</span> 프로토콜 소개' },
@@ -99,6 +109,8 @@ export const translations = {
   inc_title_prefix: { zh: '激励 ', en: 'Incentive ', tw: '激勵 ', ja: 'インセンティブ', ko: '인센티브 ' },
   inc_title_highlight: { zh: '体系', en: 'System', tw: '體系', ja: 'システム', ko: '시스템' },
   inc_desc: { zh: '十层推荐奖励 + 团队级别奖 — 多维度价值分配系统', en: '10-Layer Referral Rewards + Team Level Bonus — Multi-dimensional Value Distribution', tw: '十層推薦獎勵 + 團隊級別獎 — 多維度價值分配系統', ja: '10層紹介報酬 + チームレベルボーナス — 多次元価値配分システム', ko: '10단계 추천 보상 + 팀 레벨 보너스 — 다차원 가치 배분 시스템' },
+  inc_ref_title: { zh: '<span class="gradient-text">十层推荐</span>奖励体系', en: '<span class="gradient-text">10-Layer Referral</span> Reward System', tw: '<span class="gradient-text">十層推薦</span>獎勵體系', ja: '<span class="gradient-text">10層紹介</span>報酬システム', ko: '<span class="gradient-text">10단계 추천</span> 보상 시스템' },
+  inc_team_title2: { zh: '<span class="gradient-text">团队级别</span>奖励', en: '<span class="gradient-text">Team Level</span> Bonus', tw: '<span class="gradient-text">團隊級別</span>獎勵', ja: '<span class="gradient-text">チームレベル</span>報酬', ko: '<span class="gradient-text">팀 레벨</span> 보상' },
   inc_ref_title_prefix: { zh: '十层推荐', en: '10-Layer Referral', tw: '十層推薦', ja: '10層紹介', ko: '10단계 추천' },
   inc_ref_title_suffix: { zh: '奖励体系', en: ' Rewards', tw: '獎勵體系', ja: '報酬体系', ko: ' 보상 체계' },
   inc_ref_intro: { zh: '总奖励比例最高 <strong>15%</strong>，以 BNB 形式实时到账', en: 'Total reward up to <strong>15%</strong>, paid in BNB in real-time', tw: '總獎勵比例最高 <strong>15%</strong>，以 BNB 形式即時到賬', ja: '報酬総額最大<strong>15%</strong>、BNBでリアルタイム支払い', ko: '총 보상 최대 <strong>15%</strong>, BNB로 실시간 지급' },
@@ -204,7 +216,7 @@ export const languages = [
 export function switchLanguage(lang) {
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
-    if (translations[key] && translations[key][lang]) {
+    if (translations[key] && translations[key][lang] !== undefined) {
       if (el.hasAttribute('data-i18n-html')) {
         el.innerHTML = translations[key][lang];
       } else {

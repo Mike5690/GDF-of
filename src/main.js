@@ -11,18 +11,18 @@ const pageHTML = `
 <!-- 公告栏 -->
 <div class="announcement-bar">
   <div class="announcement-track">
-    <span class="announcement-item">🚨 【GDF 核心生态与经济模型升级公告】</span>
-    <span class="announcement-item">🔧 通缩机制重大升级 — 升级为“GDF 24—60小时超级纪元动态LP分红机制”！</span>
-    <span class="announcement-item">🛡️ 保卫底池，拒绝死亡螺旋 — 日均 0.2% 平滑通缩，牢牢锁住底池价值！</span>
-    <span class="announcement-item">🤖 斩断机器人套利（Anti-Bot）— 有效防止 MEV 夹子机器人高频吸血！</span>
-    <span class="announcement-item">💥 每 24—60 小时集中大额销毁与分红，每次触发都是社区狂欢的利好节点！</span>
-    <span class="announcement-item">🚀 GDF 团队始终致力于长期共识共建，真正的起飞才刚刚开始！🌕</span>
-    <span class="announcement-item">🚨 【GDF 核心生态与经济模型升级公告】</span>
-    <span class="announcement-item">� 通缩机制重大升级 — 升级为“GDF 24—60小时超级纪元动态LP分红机制”！</span>
-    <span class="announcement-item">�️ 保卫底池，拒绝死亡螺旋 — 日均 0.2% 平滑通缩，牢牢锁住底池价值！</span>
-    <span class="announcement-item">🤖 斩断机器人套利（Anti-Bot）— 有效防止 MEV 夹子机器人高频吸血！</span>
-    <span class="announcement-item">💥 每 24—60 小时集中大额销毁与分红，每次触发都是社区狂欢的利好节点！</span>
-    <span class="announcement-item">🚀 GDF 团队始终致力于长期共识共建，真正的起飞才刚刚开始！🌕</span>
+    <span class="announcement-item" data-i18n="ann_new_1">🚨 【GDF 核心生态与经济模型升级公告】</span>
+    <span class="announcement-item" data-i18n="ann_new_2">🔧 通缩机制重大升级 — 升级为“GDF 24—60小时超级纪元动态LP分红机制”！</span>
+    <span class="announcement-item" data-i18n="ann_new_3">🛡️ 保卫底池，拒绝死亡螺旋 — 日均 0.2% 平滑通缩，牢牢锁住底池价值！</span>
+    <span class="announcement-item" data-i18n="ann_new_4">🤖 斩断机器人套利（Anti-Bot）— 有效防止 MEV 夹子机器人高频吸血！</span>
+    <span class="announcement-item" data-i18n="ann_new_5">💥 每 24—60 小时集中大额销毁与分红，每次触发都是社区狂欢的利好节点！</span>
+    <span class="announcement-item" data-i18n="ann_new_6">🚀 GDF 团队始终致力于长期共识共建，真正的起飞才刚刚开始！🌕</span>
+    <span class="announcement-item" data-i18n="ann_new_1">🚨 【GDF 核心生态与经济模型升级公告】</span>
+    <span class="announcement-item" data-i18n="ann_new_2">� 通缩机制重大升级 — 升级为“GDF 24—60小时超级纪元动态LP分红机制”！</span>
+    <span class="announcement-item" data-i18n="ann_new_3">�️ 保卫底池，拒绝死亡螺旋 — 日均 0.2% 平滑通缩，牢牢锁住底池价值！</span>
+    <span class="announcement-item" data-i18n="ann_new_4">🤖 斩断机器人套利（Anti-Bot）— 有效防止 MEV 夹子机器人高频吸血！</span>
+    <span class="announcement-item" data-i18n="ann_new_5">💥 每 24—60 小时集中大额销毁与分红，每次触发都是社区狂欢的利好节点！</span>
+    <span class="announcement-item" data-i18n="ann_new_6">🚀 GDF 团队始终致力于长期共识共建，真正的起飞才刚刚开始！🌕</span>
   </div>
 </div>
 
@@ -63,7 +63,7 @@ const pageHTML = `
 <section class="hero" id="hero">
   <div class="hero-glow"></div>
   <div class="hero-content">
-    <h1 class="hero-title"><span class="gradient-text">GDF</span> 协议</h1>
+    <h1 class="hero-title" data-i18n="hero_title" data-i18n-html><span class="gradient-text">GDF</span> 协议</h1>
     <p class="hero-subtitle" data-i18n="hero_subtitle">下一代 DeFi 5.0 · 五重通缩自驱动价值生态</p>
     <p class="hero-desc" data-i18n="hero_desc" data-i18n-html>
       创新性集成定时销毁、交易税收、动态护盘、社区参与及退出约束五大通缩引擎，<br>
@@ -170,9 +170,9 @@ const pageHTML = `
         <h3 data-i18n="defl1_title">定时通缩</h3>
         <p class="deflation-subtitle" data-i18n="defl1_sub">每 6 小时自动销毁</p>
         <div class="deflation-detail">
-          <p>智能合约每 6 小时自动从 LP 池中提取 <strong>0.25%</strong> 的 GDF 代币，发送至黑洞地址永久销毁。</p>
-          <div class="deflation-metric"><span class="metric-label">每日销毁</span><span class="metric-value">~1% LP 池</span></div>
-          <div class="deflation-metric"><span class="metric-label">触发方式</span><span class="metric-value">链上时间戳自动</span></div>
+          <p data-i18n="defl1_desc" data-i18n-html>智能合约每 6 小时自动从 LP 池中提取 <strong>0.25%</strong> 的 GDF 代币，发送至黑洞地址永久销毁。</p>
+          <div class="deflation-metric"><span class="metric-label" data-i18n="defl_daily">每日销毁</span><span class="metric-value">~1% LP 池</span></div>
+          <div class="deflation-metric"><span class="metric-label" data-i18n="defl_trigger">触发方式</span><span class="metric-value" data-i18n="defl_trigger_val">链上时间戳自动</span></div>
         </div>
       </div>
       <div class="deflation-card glass-card reveal">
@@ -180,9 +180,9 @@ const pageHTML = `
         <h3 data-i18n="defl2_title">交易通缩</h3>
         <p class="deflation-subtitle" data-i18n="defl2_sub">卖出即销毁</p>
         <div class="deflation-detail">
-          <p>卖出行为设置 <strong>10%</strong> 交易税率，其中 5% 直接销毁，5% 划转至基金会。</p>
-          <div class="deflation-metric"><span class="metric-label">卖出税率</span><span class="metric-value">10%</span></div>
-          <div class="deflation-metric"><span class="metric-label">销毁比例</span><span class="metric-value">50% 税收</span></div>
+          <p data-i18n="defl2_desc" data-i18n-html>卖出行为设置 <strong>10%</strong> 交易税率，其中 5% 直接销毁，5% 划转至基金会。</p>
+          <div class="deflation-metric"><span class="metric-label" data-i18n="defl_sell_tax">卖出税率</span><span class="metric-value">10%</span></div>
+          <div class="deflation-metric"><span class="metric-label" data-i18n="defl_burn_ratio">销毁比例</span><span class="metric-value" data-i18n="defl_burn_ratio_val">50% 税收</span></div>
         </div>
       </div>
       <div class="deflation-card glass-card reveal">
@@ -190,9 +190,9 @@ const pageHTML = `
         <h3 data-i18n="defl3_title">护盘通缩</h3>
         <p class="deflation-subtitle" data-i18n="defl3_sub">AI 动态价格保护</p>
         <div class="deflation-detail">
-          <p>AI 实时监测价格波动，24h 内下跌时自动加税：<strong>额外税率 = 跌幅 × 2</strong>，全额销毁。</p>
-          <div class="deflation-metric"><span class="metric-label">示例(跌10%)</span><span class="metric-value">税率升至 30%</span></div>
-          <div class="deflation-metric"><span class="metric-label">保护逻辑</span><span class="metric-value">跌幅越大税率越高</span></div>
+          <p data-i18n="defl3_desc" data-i18n-html>AI 实时监测价格波动，24h 内下跌时自动加税：<strong>额外税率 = 跌幅 × 2</strong>，全额销毁。</p>
+          <div class="deflation-metric"><span class="metric-label" data-i18n="defl3_example">示例(跌10%)</span><span class="metric-value" data-i18n="defl3_example_val">税率升至 30%</span></div>
+          <div class="deflation-metric"><span class="metric-label" data-i18n="defl3_logic">保护逻辑</span><span class="metric-value" data-i18n="defl3_logic_val">跌幅越大税率越高</span></div>
         </div>
       </div>
       <div class="deflation-card glass-card reveal">
@@ -200,9 +200,9 @@ const pageHTML = `
         <h3 data-i18n="defl4_title">社区通缩</h3>
         <p class="deflation-subtitle" data-i18n="defl4_sub">社区驱动销毁</p>
         <div class="deflation-detail">
-          <p>任何用户每日可发起一次 LP 池代币销毁，最高提取 <strong>2%</strong>，部分激励分销商，剩余永久销毁。</p>
-          <div class="deflation-metric"><span class="metric-label">最大提取</span><span class="metric-value">2% LP 池</span></div>
-          <div class="deflation-metric"><span class="metric-label">激励占比</span><span class="metric-value">20%→80%</span></div>
+          <p data-i18n="defl4_desc" data-i18n-html>任何用户每日可发起一次 LP 池代币销毁，最高提取 <strong>2%</strong>，部分激励分销商，剩余永久销毁。</p>
+          <div class="deflation-metric"><span class="metric-label" data-i18n="defl_max_extract">最大提取</span><span class="metric-value">2% LP 池</span></div>
+          <div class="deflation-metric"><span class="metric-label" data-i18n="defl_incentive_ratio">激励占比</span><span class="metric-value">20%→80%</span></div>
         </div>
       </div>
       <div class="deflation-card glass-card reveal">
@@ -210,9 +210,9 @@ const pageHTML = `
         <h3 data-i18n="defl5_title">退出通缩</h3>
         <p class="deflation-subtitle" data-i18n="defl5_sub">长期锁仓激励</p>
         <div class="deflation-detail">
-          <p>LP 撤出设阶梯式扣除机制，不设强制锁仓期，通过经济成本引导长期持有。所有扣除代币直接销毁。</p>
-          <div class="deflation-metric"><span class="metric-label">扣除比例</span><span class="metric-value">各阶段 1%</span></div>
-          <div class="deflation-metric"><span class="metric-label">所有扣除</span><span class="metric-value">直接销毁</span></div>
+          <p data-i18n="defl5_desc" data-i18n-html>LP 撤出设阶梯式扣除机制，不设强制锁仓期，通过经济成本引导长期持有。所有扣除代币直接销毁。</p>
+          <div class="deflation-metric"><span class="metric-label" data-i18n="defl_deduct">扣除比例</span><span class="metric-value" data-i18n="defl_deduct_val">各阶段 1%</span></div>
+          <div class="deflation-metric"><span class="metric-label" data-i18n="defl_all_burn">所有扣除</span><span class="metric-value" data-i18n="defl_all_burn_val">直接销毁</span></div>
         </div>
       </div>
     </div>
@@ -228,27 +228,27 @@ const pageHTML = `
     </div>
     <div class="incentive-layout">
       <div class="incentive-block glass-card reveal">
-        <h3><span class="gradient-text">十层推荐</span>奖励体系</h3>
-        <p class="incentive-intro">总奖励比例最高 <strong>15%</strong>，以 BNB 形式实时到账</p>
+        <h3 data-i18n="inc_ref_title" data-i18n-html><span class="gradient-text">十层推荐</span>奖励体系</h3>
+        <p class="incentive-intro" data-i18n="inc_ref_intro" data-i18n-html>总奖励比例最高 <strong>15%</strong>，以 BNB 形式实时到账</p>
         <div class="referral-table">
-          <div class="referral-header"><span>层级</span><span>奖励比例</span><span>领取条件</span></div>
-          <div class="referral-row highlight"><span>第 1 层</span><span class="reward-pct">3%</span><span>LP 持仓有效</span></div>
-          <div class="referral-row"><span>第 2 层</span><span class="reward-pct">2.5%</span><span>+3 个有效直推</span></div>
-          <div class="referral-row"><span>第 3 层</span><span class="reward-pct">2%</span><span>+5 个有效直推</span></div>
-          <div class="referral-row"><span>第 4 层</span><span class="reward-pct">1.5%</span><span>+7 个有效直推</span></div>
-          <div class="referral-row"><span>第 5-10 层</span><span class="reward-pct">各 1%</span><span>+10 个有效直推</span></div>
+          <div class="referral-header"><span data-i18n="inc_layer">层级</span><span data-i18n="inc_reward">奖励比例</span><span data-i18n="inc_condition">领取条件</span></div>
+          <div class="referral-row highlight"><span data-i18n="inc_l1">第 1 层</span><span class="reward-pct">3%</span><span data-i18n="inc_l1_cond">LP 持仓有效</span></div>
+          <div class="referral-row"><span data-i18n="inc_l2">第 2 层</span><span class="reward-pct">2.5%</span><span data-i18n="inc_l2_cond">+3 个有效直推</span></div>
+          <div class="referral-row"><span data-i18n="inc_l3">第 3 层</span><span class="reward-pct">2%</span><span data-i18n="inc_l3_cond">+5 个有效直推</span></div>
+          <div class="referral-row"><span data-i18n="inc_l4">第 4 层</span><span class="reward-pct">1.5%</span><span data-i18n="inc_l4_cond">+7 个有效直推</span></div>
+          <div class="referral-row"><span data-i18n="inc_l5">第 5-10 层</span><span class="reward-pct" data-i18n="inc_l5_pct">各 1%</span><span data-i18n="inc_l5_cond">+10 个有效直推</span></div>
         </div>
       </div>
       <div class="incentive-block glass-card reveal">
-        <h3><span class="gradient-text">团队级别</span>奖励</h3>
-        <p class="incentive-intro">极差制计算，平级奖 <strong>10%</strong> 下级团队奖金</p>
+        <h3 data-i18n="inc_team_title2" data-i18n-html><span class="gradient-text">团队级别</span>奖励</h3>
+        <p class="incentive-intro" data-i18n="inc_team_intro" data-i18n-html>极差制计算，平级奖 <strong>10%</strong> 下级团队奖金</p>
         <div class="team-table">
-          <div class="team-header"><span>级别</span><span>团队业绩</span><span>有效直推</span><span>奖励</span></div>
-          <div class="team-row"><span class="level-badge v1">V1</span><span>≥1 BNB</span><span>≥1 人</span><span class="reward-pct">1%</span></div>
-          <div class="team-row"><span class="level-badge v2">V2</span><span>≥5 BNB</span><span>≥3 人</span><span class="reward-pct">2%</span></div>
-          <div class="team-row"><span class="level-badge v3">V3</span><span>≥20 BNB</span><span>≥5 人</span><span class="reward-pct">3%</span></div>
-          <div class="team-row"><span class="level-badge v4">V4</span><span>≥100 BNB</span><span>≥7 人</span><span class="reward-pct">4%</span></div>
-          <div class="team-row"><span class="level-badge v5">V5</span><span>≥500 BNB</span><span>≥10 人</span><span class="reward-pct">5%</span></div>
+          <div class="team-header"><span data-i18n="inc_level">级别</span><span data-i18n="inc_team_perf">团队业绩</span><span data-i18n="inc_direct_ref">有效直推</span><span data-i18n="inc_team_reward">奖励</span></div>
+          <div class="team-row"><span class="level-badge v1">V1</span><span>≥1 BNB</span><span>≥1 <span data-i18n="inc_person">人</span></span><span class="reward-pct">1%</span></div>
+          <div class="team-row"><span class="level-badge v2">V2</span><span>≥5 BNB</span><span>≥3 <span data-i18n="inc_person">人</span></span><span class="reward-pct">2%</span></div>
+          <div class="team-row"><span class="level-badge v3">V3</span><span>≥20 BNB</span><span>≥5 <span data-i18n="inc_person">人</span></span><span class="reward-pct">3%</span></div>
+          <div class="team-row"><span class="level-badge v4">V4</span><span>≥100 BNB</span><span>≥7 <span data-i18n="inc_person">人</span></span><span class="reward-pct">4%</span></div>
+          <div class="team-row"><span class="level-badge v5">V5</span><span>≥500 BNB</span><span>≥10 <span data-i18n="inc_person">人</span></span><span class="reward-pct">5%</span></div>
         </div>
       </div>
     </div>
@@ -265,17 +265,17 @@ const pageHTML = `
     <div class="nft-layout" style="grid-template-columns:1fr">
       <div class="nft-info">
         <div class="nft-params">
-          <div class="nft-param glass-card reveal"><span class="param-icon">💰</span><span class="param-label">节点价格</span><span class="param-value">0.8 BNB</span></div>
-          <div class="nft-param glass-card reveal"><span class="param-icon">🌍</span><span class="param-label">发行总量</span><span class="param-value">2,000 个</span></div>
-          <div class="nft-param glass-card reveal"><span class="param-icon">👤</span><span class="param-label">购买限制</span><span class="param-value">每个地址限购一个</span></div>
-          <div class="nft-param glass-card reveal"><span class="param-icon">🔗</span><span class="param-label">权益属性</span><span class="param-value">链上确权 · 永久持有</span></div>
+          <div class="nft-param glass-card reveal"><span class="param-icon">💰</span><span class="param-label" data-i18n="nft_price_label">节点价格</span><span class="param-value">0.8 BNB</span></div>
+          <div class="nft-param glass-card reveal"><span class="param-icon">🌍</span><span class="param-label" data-i18n="nft_total_label">发行总量</span><span class="param-value" data-i18n="nft_total_value">2,000 个</span></div>
+          <div class="nft-param glass-card reveal"><span class="param-icon">👤</span><span class="param-label" data-i18n="nft_limit_label">购买限制</span><span class="param-value" data-i18n="nft_limit_value">每个地址限购一个</span></div>
+          <div class="nft-param glass-card reveal"><span class="param-icon">🔗</span><span class="param-label" data-i18n="nft_rights_label">权益属性</span><span class="param-value" data-i18n="nft_rights_value">链上确权 · 永久持有</span></div>
         </div>
         <div class="nft-benefits glass-card reveal">
-          <h4>🎁 核心权益</h4>
+          <h4 data-i18n="nft_benefits_title">🎁 核心权益</h4>
           <div class="benefit-list">
             <div class="benefit-item">
               <span class="benefit-icon">📈</span>
-              <div><strong>全网入金分红</strong><p>每笔入金 10% 划入分红池，按节点总数均分，BNB 实时发放</p></div>
+              <div><strong data-i18n="nft_benefit1_title">全网入金分红</strong><p data-i18n="nft_benefit1_desc">每笔入金 10% 划入分红池，按节点总数均分，BNB 实时发放</p></div>
             </div>
 
           </div>
@@ -318,7 +318,7 @@ const pageHTML = `
         <div class="roadmap-content glass-card">
           <div class="roadmap-phase">Phase 1</div>
           <h3 data-i18n="road_p1_title">协议上线</h3>
-          <ul><li>五重通缩引擎部署</li><li>十层推荐奖励激活</li><li>NFT 节点发售</li><li>合约审计与权限抛弃</li></ul>
+          <ul><li data-i18n="road_p1_l1">五重通缩引擎部署</li><li data-i18n="road_p1_l2">十层推荐奖励激活</li><li data-i18n="road_p1_l3">NFT 节点发售</li><li data-i18n="road_p1_l4">合约审计与权限抛弃</li></ul>
         </div>
       </div>
       <div class="roadmap-item reveal">
@@ -326,7 +326,7 @@ const pageHTML = `
         <div class="roadmap-content glass-card">
           <div class="roadmap-phase">Phase 2</div>
           <h3 data-i18n="road_p2_title">DeFi 生态集成</h3>
-          <ul><li>借贷平台战略协作</li><li>GDF LP 资产抵押借贷</li><li>DEX 流动性挖矿</li><li>做市商激励计划</li></ul>
+          <ul><li data-i18n="road_p2_l1">借贷平台战略协作</li><li data-i18n="road_p2_l2">GDF LP 资产抵押借贷</li><li data-i18n="road_p2_l3">DEX 流动性挖矿</li><li data-i18n="road_p2_l4">做市商激励计划</li></ul>
         </div>
       </div>
       <div class="roadmap-item reveal">
@@ -334,7 +334,7 @@ const pageHTML = `
         <div class="roadmap-content glass-card">
           <div class="roadmap-phase">Phase 3</div>
           <h3 data-i18n="road_p3_title">跨链扩展</h3>
-          <ul><li>以太坊、Polygon 资产互通</li><li>跨链桥多链流通</li><li>AI 预测模型优化通缩</li><li>弹性销毁调节</li></ul>
+          <ul><li data-i18n="road_p3_l1">以太坊、Polygon 资产互通</li><li data-i18n="road_p3_l2">跨链桥多链流通</li><li data-i18n="road_p3_l3">AI 预测模型优化通缩</li><li data-i18n="road_p3_l4">弹性销毁调节</li></ul>
         </div>
       </div>
       <div class="roadmap-item reveal">
@@ -342,7 +342,7 @@ const pageHTML = `
         <div class="roadmap-content glass-card">
           <div class="roadmap-phase">Phase 4</div>
           <h3 data-i18n="road_p4_title">社区治理与 RWA</h3>
-          <ul><li>治理代币 GDF Governance 发行</li><li>NFT 节点提案与投票权</li><li>现实世界资产链上映射</li><li>完全社区自治模式</li></ul>
+          <ul><li data-i18n="road_p4_l1">治理代币 GDF Governance 发行</li><li data-i18n="road_p4_l2">NFT 节点提案与投票权</li><li data-i18n="road_p4_l3">现实世界资产链上映射</li><li data-i18n="road_p4_l4">完全社区自治模式</li></ul>
         </div>
       </div>
     </div>
