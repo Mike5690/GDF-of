@@ -367,7 +367,7 @@ const pageHTML = `
 
       </div>
     </div>
-    <div class="footer-bottom"><p>&copy; 2025 GDF Protocol. All rights reserved. Built on BNB Smart Chain.</p></div>
+    <div class="footer-bottom"><p>&copy; 2026 GDF Protocol. All rights reserved. Built on BNB Smart Chain.</p></div>
   </div>
 </footer>
 `;
