@@ -200,6 +200,7 @@ export const translations = {
   footer_whitepaper: { zh: '白皮书', en: 'Whitepaper', tw: '白皮書', ja: 'ホワイトペーパー', ko: '백서' },
   footer_audit: { zh: '审计报告', en: 'Audit Report', tw: '審計報告', ja: '監査レポート', ko: '감사 보고서' },
   footer_social: { zh: '社交', en: 'Social', tw: '社交', ja: 'ソーシャル', ko: '소셜' },
+  footer_contact: { zh: '联系我们', en: 'Contact', tw: '聯繫我們', ja: 'お問い合わせ', ko: '문의하기' },
   footer_copyright: { zh: '© 2025 GDF Protocol. All rights reserved. Built on BNB Smart Chain.', en: '© 2025 GDF Protocol. All rights reserved. Built on BNB Smart Chain.', tw: '© 2025 GDF Protocol. All rights reserved. Built on BNB Smart Chain.', ja: '© 2025 GDF Protocol. All rights reserved. Built on BNB Smart Chain.', ko: '© 2025 GDF Protocol. All rights reserved. Built on BNB Smart Chain.' },
 };
 
