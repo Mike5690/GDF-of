@@ -194,6 +194,19 @@ export const translations = {
   road_p4_l3: { zh: '现实世界资产链上映射', en: 'Real-world asset on-chain mapping', tw: '現實世界資產鏈上映射', ja: '現実世界資産のオンチェーンマッピング', ko: '실물 자산 온체인 매핑' },
   road_p4_l4: { zh: '完全社区自治模式', en: 'Full community governance mode', tw: '完全社區自治模式', ja: '完全コミュニティ自治モード', ko: '완전 커뮤니티 자치 모드' },
 
+  // ===== 团队介绍 =====
+  nav_team: { zh: '团队', en: 'Team', tw: '團隊', ja: 'チーム', ko: '팀' },
+  team_title: { zh: '核心 <span class="gradient-text">团队</span>', en: 'Core <span class="gradient-text">Team</span>', tw: '核心 <span class="gradient-text">團隊</span>', ja: 'コア<span class="gradient-text">チーム</span>', ko: '핵심 <span class="gradient-text">팀</span>' },
+  team_desc: { zh: '经验丰富的区块链团队 — 致力于构建下一代 DeFi 基础设施', en: 'Experienced blockchain team — Building the next generation of DeFi infrastructure', tw: '經驗豐富的區塊鏈團隊 — 致力於構建下一代 DeFi 基礎設施', ja: '経験豊富なブロックチェーンチーム — 次世代DeFiインフラの構築に尽力', ko: '경험 풍부한 블록체인 팀 — 차세대 DeFi 인프라 구축에 전념' },
+  team_m1_role: { zh: '创始人 & 首席开发者', en: 'Founder & Lead Developer', tw: '創始人 & 首席開發者', ja: '創設者 & リードデベロッパー', ko: '창립자 & 수석 개발자' },
+  team_m1_bio: { zh: '资深区块链开发者，专注于 DeFi 协议设计与智能合约安全。在去中心化金融领域拥有丰富经验，致力于构建可持续的通缩型代币经济模型。', en: 'Senior blockchain developer specializing in DeFi protocol design and smart contract security. Extensive experience in decentralized finance, dedicated to building sustainable deflationary token economic models.', tw: '資深區塊鏈開發者，專注於 DeFi 協議設計與智能合約安全。在去中心化金融領域擁有豐富經驗，致力於構建可持續的通縮型代幣經濟模型。', ja: 'DeFiプロトコル設計とスマートコントラクトセキュリティを専門とするシニアブロックチェーン開発者。分散型金融で豊富な経験を持ち、持続可能なデフレ型トークン経済モデルの構築に尽力。', ko: 'DeFi 프로토콜 설계 및 스마트 컨트랙트 보안 전문 시니어 블록체인 개발자. 탈중앙화 금융 분야의 풍부한 경험을 바탕으로 지속 가능한 디플레이션 토큰 경제 모델 구축에 전념.' },
+  team_m2_name: { zh: '安全团队', en: 'Security Team', tw: '安全團隊', ja: 'セキュリティチーム', ko: '보안 팀' },
+  team_m2_role: { zh: '智能合约审计 & 安全', en: 'Smart Contract Audit & Security', tw: '智能合約審計 & 安全', ja: 'スマートコントラクト監査&セキュリティ', ko: '스마트 컨트랙트 감사 & 보안' },
+  team_m2_bio: { zh: '专业的合约审计团队，负责 GDF 协议的安全性验证、代码审查与压力测试，确保零漏洞部署。', en: 'Professional audit team responsible for GDF protocol security verification, code review, and stress testing, ensuring zero-vulnerability deployment.', tw: '專業的合約審計團隊，負責 GDF 協議的安全性驗證、代碼審查與壓力測試，確保零漏洞部署。', ja: 'GDFプロトコルのセキュリティ検証、コードレビュー、ストレステストを担当する専門監査チーム。ゼロ脆弱性デプロイを保証。', ko: 'GDF 프로토콜 보안 검증, 코드 리뷰, 스트레스 테스트를 담당하는 전문 감사 팀. 무결점 배포 보장.' },
+  team_m3_name: { zh: '社区运营', en: 'Community Operations', tw: '社區運營', ja: 'コミュニティ運営', ko: '커뮤니티 운영' },
+  team_m3_role: { zh: '全球社区管理 & 市场推广', en: 'Global Community Management & Marketing', tw: '全球社區管理 & 市場推廣', ja: 'グローバルコミュニティマネジメント&マーケティング', ko: '글로벌 커뮤니티 관리 & 마케팅' },
+  team_m3_bio: { zh: '负责 GDF 全球社区建设、多语言支持及市场拓展，推动项目在全球范围内的共识增长。', en: 'Responsible for GDF global community building, multilingual support, and market expansion, driving consensus growth worldwide.', tw: '負責 GDF 全球社區建設、多語言支持及市場拓展，推動項目在全球範圍內的共識增長。', ja: 'GDFグローバルコミュニティ構築、多言語サポート、市場拡大を担当し、世界規模でのコンセンサス成長を推進。', ko: 'GDF 글로벌 커뮤니티 구축, 다국어 지원, 시장 확장을 담당하며 전 세계적으로 컨센서스 성장을 추진.' },
+
   // ===== 页脚 =====
   footer_desc: { zh: '下一代 DeFi 5.0 · 五重通缩自驱动价值生态', en: 'Next-Gen DeFi 5.0 · Five-Deflation Self-Driven Value Ecosystem', tw: '下一代 DeFi 5.0 · 五重通縮自驅動價值生態', ja: '次世代 DeFi 5.0 · 5重デフレ自律型価値エコシステム', ko: '차세대 DeFi 5.0 · 5중 디플레이션 자율 가치 생태계' },
   footer_docs: { zh: '文档', en: 'Docs', tw: '文檔', ja: 'ドキュメント', ko: '문서' },

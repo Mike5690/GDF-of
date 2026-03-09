@@ -11,18 +11,7 @@ const pageHTML = `
 <!-- 公告栏 -->
 <div class="announcement-bar">
   <div class="announcement-track">
-    <span class="announcement-item" data-i18n="ann_new_1">🚨 【GDF 核心生态与经济模型升级公告】</span>
-    <span class="announcement-item" data-i18n="ann_new_2">🔧 通缩机制重大升级 — 升级为“GDF 24—60小时超级纪元动态LP分红机制”！</span>
-    <span class="announcement-item" data-i18n="ann_new_3">🛡️ 保卫底池，拒绝死亡螺旋 — 日均 0.2% 平滑通缩，牢牢锁住底池价值！</span>
-    <span class="announcement-item" data-i18n="ann_new_4">🤖 斩断机器人套利（Anti-Bot）— 有效防止 MEV 夹子机器人高频吸血！</span>
-    <span class="announcement-item" data-i18n="ann_new_5">💥 每 24—60 小时集中大额销毁与分红，每次触发都是社区狂欢的利好节点！</span>
-    <span class="announcement-item" data-i18n="ann_new_6">🚀 GDF 团队始终致力于长期共识共建，真正的起飞才刚刚开始！🌕</span>
-    <span class="announcement-item" data-i18n="ann_new_1">🚨 【GDF 核心生态与经济模型升级公告】</span>
-    <span class="announcement-item" data-i18n="ann_new_2">� 通缩机制重大升级 — 升级为“GDF 24—60小时超级纪元动态LP分红机制”！</span>
-    <span class="announcement-item" data-i18n="ann_new_3">�️ 保卫底池，拒绝死亡螺旋 — 日均 0.2% 平滑通缩，牢牢锁住底池价值！</span>
-    <span class="announcement-item" data-i18n="ann_new_4">🤖 斩断机器人套利（Anti-Bot）— 有效防止 MEV 夹子机器人高频吸血！</span>
-    <span class="announcement-item" data-i18n="ann_new_5">💥 每 24—60 小时集中大额销毁与分红，每次触发都是社区狂欢的利好节点！</span>
-    <span class="announcement-item" data-i18n="ann_new_6">🚀 GDF 团队始终致力于长期共识共建，真正的起飞才刚刚开始！🌕</span>
+    <!-- 暂无公告 -->
   </div>
 </div>
 
@@ -41,13 +30,14 @@ const pageHTML = `
       <a href="#nft" class="nav-link" data-i18n="nav_nft">NFT节点</a>
 
       <a href="#security" class="nav-link" data-i18n="nav_security">安全审计</a>
+      <a href="#team" class="nav-link" data-i18n="nav_team">团队</a>
       <a href="#roadmap" class="nav-link" data-i18n="nav_roadmap">路线图</a>
     </div>
     <div class="lang-selector" id="langSelector">
-      <button class="lang-btn" id="langBtn">🌐 简体中文 ▾</button>
+      <button class="lang-btn" id="langBtn">🌐 English ▾</button>
       <div class="lang-dropdown" id="langDropdown">
-        <a class="lang-option active" data-lang="zh">简体中文</a>
-        <a class="lang-option" data-lang="en">English</a>
+        <a class="lang-option active" data-lang="en">English</a>
+        <a class="lang-option" data-lang="zh">简体中文</a>
         <a class="lang-option" data-lang="tw">繁體中文</a>
         <a class="lang-option" data-lang="ja">日本語</a>
         <a class="lang-option" data-lang="ko">한국어</a>
@@ -301,6 +291,47 @@ const pageHTML = `
       <div class="security-card glass-card reveal"><h3 data-i18n="sec4_title">平等权利</h3><p data-i18n="sec4_desc">不具备黑名单机制，所有用户享有平等的交易与参与权利，真正去中心化。</p></div>
       <div class="security-card glass-card reveal"><h3 data-i18n="sec5_title">代码开源</h3><p data-i18n="sec5_desc">协议代码完全开源，支持社区开发者二次审查，透明可验证。</p></div>
       <div class="security-card glass-card reveal"><h3 data-i18n="sec6_title">压力测试</h3><p data-i18n="sec6_desc">多轮压力测试与边界条件模拟，极端市场环境下仍保持稳定运行。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 团队介绍 -->
+<section class="section section-alt" id="team">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="section-title" data-i18n="team_title" data-i18n-html>核心 <span class="gradient-text">团队</span></h2>
+      <p class="section-desc" data-i18n="team_desc">经验丰富的区块链团队 — 致力于构建下一代 DeFi 基础设施</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-member glass-card reveal">
+        <div class="member-avatar">👨‍💻</div>
+        <h3 class="member-name">Mike</h3>
+        <p class="member-role" data-i18n="team_m1_role">创始人 & 首席开发者</p>
+        <p class="member-bio" data-i18n="team_m1_bio">资深区块链开发者，专注于 DeFi 协议设计与智能合约安全。在去中心化金融领域拥有丰富经验，致力于构建可持续的通缩型代币经济模型。</p>
+        <div class="member-links">
+          <a href="https://www.linkedin.com/in/zhiyong-wei-82a15a3b6" target="_blank" class="member-link" title="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://github.com/Mike5690" target="_blank" class="member-link" title="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="https://x.com/good73391245540" target="_blank" class="member-link" title="X (Twitter)">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="team-member glass-card reveal">
+        <div class="member-avatar">🛡️</div>
+        <h3 class="member-name" data-i18n="team_m2_name">安全团队</h3>
+        <p class="member-role" data-i18n="team_m2_role">智能合约审计 & 安全</p>
+        <p class="member-bio" data-i18n="team_m2_bio">专业的合约审计团队，负责 GDF 协议的安全性验证、代码审查与压力测试，确保零漏洞部署。</p>
+      </div>
+      <div class="team-member glass-card reveal">
+        <div class="member-avatar">🌐</div>
+        <h3 class="member-name" data-i18n="team_m3_name">社区运营</h3>
+        <p class="member-role" data-i18n="team_m3_role">全球社区管理 & 市场推广</p>
+        <p class="member-bio" data-i18n="team_m3_bio">负责 GDF 全球社区建设、多语言支持及市场拓展，推动项目在全球范围内的共识增长。</p>
+      </div>
     </div>
   </div>
 </section>
@@ -572,15 +603,13 @@ function initLanguageSwitcher() {
       });
     });
 
-    // 恢复上次选择的语言
-    const savedLang = localStorage.getItem('gdf-lang');
-    if (savedLang && savedLang !== 'zh') {
-      switchLanguage(savedLang);
-      langBtn.textContent = '🌐 ' + langNames[savedLang] + ' ▾';
-      langOptions.forEach(o => {
-        o.classList.toggle('active', o.getAttribute('data-lang') === savedLang);
-      });
-    }
+    // 恢复上次选择的语言（默认英文）
+    const savedLang = localStorage.getItem('gdf-lang') || 'en';
+    switchLanguage(savedLang);
+    langBtn.textContent = '🌐 ' + langNames[savedLang] + ' ▾';
+    langOptions.forEach(o => {
+      o.classList.toggle('active', o.getAttribute('data-lang') === savedLang);
+    });
   });
 }
 
